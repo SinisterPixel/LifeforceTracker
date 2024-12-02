@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Lifeforce Tracker - Web.loader.js";
+      var loaderUrl = buildUrl + "/LifeforceTracker.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Lifeforce Tracker - Web.data.br",
-        frameworkUrl: buildUrl + "/Lifeforce Tracker - Web.framework.js.br",
-        codeUrl: buildUrl + "/Lifeforce Tracker - Web.wasm.br",
+        dataUrl: buildUrl + "/LifeforceTracker.data",
+        frameworkUrl: buildUrl + "/LifeforceTracker.framework.js",
+        codeUrl: buildUrl + "/LifeforceTracker.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SinisterPixel",
         productName: "NecromancerLifeforceTracker",
@@ -102,7 +102,7 @@
         canvas.style.height = "540px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Lifeforce Tracker - Web.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/LifeforceTracker.jpg') center / cover";
       document.querySelector("#unity-loading-bar").style.display = "block";
 
       var script = document.createElement("script");
